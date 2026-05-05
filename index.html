@@ -30,7 +30,7 @@
 
                 <form method="post" enctype="multipart/form-data">
                     <fieldset class="child-info">
-                        <Legend>Informações da criança</Legend>
+                        <legend>Informações da criança</legend>
 
                         <div class="input-wrapper">
                             <label for="fullname">Nome Completo</label>
@@ -113,12 +113,12 @@
                         </div>
                     </fieldset>
 
-                    <fieldset class="gardian">
+                    <fieldset class="child-guardian">
                         <legend>Informações do responsável</legend>
 
                         <div class="input-wrapper">
-                            <label for="gardian">Nome do responsável</label>
-                            <input type="text" id="gardian" name="gardian">
+                            <label for="guardian">Nome do responsável</label>
+                            <input type="text" id="guardian" name="guardian">
                             <small>Principal responsável legal e contato de emergência</small>
                         </div>
 
@@ -129,7 +129,7 @@
 
                         <div class="input-wrapper">
                             <label for="mail">Email</label>
-                            <input type="email" id="mail" name="mail" placeholder="seu.email@exemplo.com" required>
+                            <input type="text" id="mail" name="mail" placeholder="seu.email@exemplo.com" required>
 
                             <div class="error">
                                 <img src="assets/alert-circle (1).svg" alt="Ícone de alerta vermelho">
@@ -146,21 +146,16 @@
 
                             <div class="radio-wrapper">
                                 <div class="radio-inner">
-                                    <div class="radio-image">
-                                        <input type="radio" name="study-shift" value="morning" id="morning">
-                                        <img src="assets/sun-cloud-02.svg" alt="Ícone de sol com nuvens">
-                                        <label for="morning">Manhã</label>
-                                    </div>
+                                    <div class="radio-image"></div>
+                                    <input type="radio" name="study-shift" value="morning" id="morning">
+                                    <img src="assets/sun-cloud-02.svg" alt="Ícone de sol com nuvens">
+                                    <label for="morning">Manhã</label>
                                 </div>
-                            </div>
-
-                            <div class="radio-wrapper">
                                 <div class="radio-inner">
-                                    <div class="radio-image">
-                                        <input type="radio" name="study-shift" value="evening" id="evening">
-                                        <img src="assets/sun-02.svg" alt="Ícone de sol com nuvens">
-                                        <label for="evening">Tarde</label>
-                                    </div>
+                                    <div class="radio-image"></div>
+                                    <input type="radio" name="study-shift" value="evening" id="evening">
+                                    <img src="assets/sun-02.svg" alt="Ícone de sol com nuvens">
+                                    <label for="evening">Tarde</label>
                                 </div>
                             </div>
                         </div>
@@ -170,58 +165,50 @@
 
                             <div class="radio-wrapper">
                                 <div class="radio-inner">
-                                    <div class="radio-image">
-                                        <input type="radio" name="sport" value="football" id="football">
-                                        <img src="assets/football.svg" alt="Ícone de futebol">
-                                        <label for="football">Futebol</label>
-                                    </div>
-                                </div>
-
-                                <div class="radio-inner">
-                                    <div class="radio-image">
-                                        <input type="radio" name="sport" value="basketball" id="basketball">
-                                        <img src="assets/basketball-02.svg" alt="Ícone de basquete">
-                                        <label for="basketball">Basquete</label>
-                                    </div>
+                                    <div class="radio-image"></div>
+                                    <input type="radio" name="sport" value="football" id="football">
+                                    <img src="assets/football.svg" alt="Ícone de futebol">
+                                    <label for="football">Futebol</label>
                                 </div>
                                 <div class="radio-inner">
-                                    <div class="radio-image">
-                                        <input type="radio" name="sport" value="swimming" id="swimming">
-                                        <img src="assets/swimming.svg" alt="Ícone de natação">
-                                        <label for="swimming">Natação</label>
-                                    </div>
+                                    <div class="radio-image"></div>
+                                    <input type="radio" name="sport" value="basketball" id="basketball">
+                                    <img src="assets/basketball-02.svg" alt="Ícone de basquete">
+                                    <label for="basketball">Basquete</label>
                                 </div>
                                 <div class="radio-inner">
-                                    <div class="radio-image">
-                                        <input type="radio" name="sport" value="yoga" id="yoga">
-                                        <img src="assets/yoga-02.svg" alt="Ícone de ioga">
-                                        <label for="yoga">Ioga</label>
-                                    </div>
+                                    <div class="radio-image"></div>
+                                    <input type="radio" name="sport" value="swimming" id="swimming">
+                                    <img src="assets/swimming.svg" alt="Ícone de natação">
+                                    <label for="swimming">Natação</label>
                                 </div>
                                 <div class="radio-inner">
-                                    <div class="radio-image">
-                                        <input type="radio" name="sport" value="volleyball" id="volleyball">
-                                        <img src="assets/volleyball.svg" alt="Ícone de vôlei">
-                                        <label for="volleyball">Vôlei</label>
-                                    </div>
+                                    <div class="radio-image"></div>
+                                    <input type="radio" name="sport" value="yoga" id="yoga">
+                                    <img src="assets/yoga-02.svg" alt="Ícone de ioga">
+                                    <label for="yoga">Ioga</label>
                                 </div>
                                 <div class="radio-inner">
-                                    <div class="radio-image">
-                                        <input type="radio" name="sport" value="boxing" id="boxing">
-                                        <img src="assets/boxing-glove-01.svg" alt="Ícone de boxe">
-                                        <label for="boxing">Boxe</label>
-                                    </div>
+                                    <div class="radio-image"></div>
+                                    <input type="radio" name="sport" value="volleyball" id="volleyball">
+                                    <img src="assets/volleyball.svg" alt="Ícone de vôlei">
+                                    <label for="volleyball">Vôlei</label>
+                                </div>
+                                <div class="radio-inner">
+                                    <div class="radio-image"></div>
+                                    <input type="radio" name="sport" value="boxing" id="boxing">
+                                    <img src="assets/boxing-glove-01.svg" alt="Ícone de boxe">
+                                    <label for="boxing">Boxe</label>
                                 </div>
                             </div>
                         </div>
                     </fieldset>
 
                     <div class="terms-wrapper input-wrapper checkbox-wrapper">
-                        <div class="checkbox-image">
-                            <input type="checkbox" name="terms" id="terms">
-                            <label for="terms">Li e concordo com os <strong>termos e condições</strong> e com a
-                                <strong>política de privacidade</strong> da escola Estrela do Amanhã</label>
-                        </div>
+                        <div class="checkbox-image"></div>
+                        <input type="checkbox" name="terms" id="terms">
+                        <label for="terms">Li e concordo com os <strong>termos e condições</strong> e com a
+                            <strong>política de privacidade</strong> da escola Estrela do Amanhã</label>
                     </div>
 
                     <div class="actions-wrapper">

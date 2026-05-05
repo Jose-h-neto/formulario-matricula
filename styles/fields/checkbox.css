@@ -24,9 +24,13 @@
         height: 1.5rem;
 
         background-image: url(../../assets/checkbox-default.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
-    &:hover &:focus-within {
+    &:hover,
+    &:focus-within {
         .checkbox-image {
             background-image: url(../../assets/checkbox-hover.svg);
         }
